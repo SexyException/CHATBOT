@@ -159,10 +159,9 @@ async def gcast(client: Client, message: Message):
     await altron.gcast(client, message, chat_ids)
 
 
-print("Your Chatbot Is Ready Now! Join @TheAltron And @AltronChats")
+print("Your Chatbot Is Ready Now! Join @ll_romance_house_ll")
 
 bot.start()
-bot.join_chat("TheAltron")
-bot.join_chat("AltronChats")
+bot.join_chat("ll_romance_house_ll")
 idle()
 bot.stop()
